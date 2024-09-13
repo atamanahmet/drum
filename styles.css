@@ -36,6 +36,7 @@ body{
   text-shadow: 2px 0px #DA0463;
 }
 .col {
+  text-shadow: 2px 2px #404B69;
   margin: 1rem;
   margin-top: 5rem;
   color: #DA0463;
@@ -47,4 +48,46 @@ body{
   border-radius: 10px;
   font-size: 5rem;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.w{
+  background-image: url(./images/crash.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 55px;
+}
+.a{
+ background-image:url(./images/kick.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.s{
+background-image: url(./images/snare.png);
+background-size: 90px;
+background-position:center;
+background-repeat: no-repeat;
+}
+.d{
+background-image: url(./images/tom1.png);
+background-size: 120px;
+background-position: center;
+background-repeat:no-repeat;
+}
+.j{
+  background-image: url(./images/tom2.png);
+  background-size: 120px;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+.k{
+  background-image: url(./images/tom3.png);
+  background-size: 90px;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+.l{
+  background-image: url(./images/tom4.png);
+  background-size: 90px;
+  background-position: center;
+  background-repeat:no-repeat;
 }
