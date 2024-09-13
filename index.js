@@ -70,6 +70,7 @@
 //   lSound.currentTime=0;
 //   lSound.play();
 // }
+// DRUM KIT
 var soundObj = {
   wSound: new Audio("./sounds/crash.mp3"),
   aSound: new Audio("./sounds/kick-bass.mp3"),
@@ -79,7 +80,6 @@ var soundObj = {
   kSound: new Audio("./sounds/tom-3.mp3"),
   lSound: new Audio("./sounds/tom-4.mp3"),
 };
-
 addEventListener("keydown", (check) => {
   let pressedKey = check.key + "Sound";
   soundObj[pressedKey].currentTime = 0;
@@ -89,9 +89,10 @@ addEventListener("keydown", (check) => {
 var callBtn = document.querySelectorAll(".col");
 for (i = 0; i <= callBtn.length; i++) {
   callBtn[i].addEventListener("click", function () {
+    this.style.color = "gray"; 
+    this.style.textShadow = "2px 2px #DA0463";
     var keyPressed = this.textContent.toLowerCase() + "Sound";
     soundObj[keyPressed].currentTime = 0;
     soundObj[keyPressed].play();
   });
 }
-
